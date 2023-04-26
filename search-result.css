@@ -1,0 +1,33 @@
+.ajax-search-result2 {
+    max-height: 350px;
+    position: absolute;
+    z-index: 9999999999;
+    background: #FFF;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-width: 100%!important;
+}
+
+.ajax-search-result2 ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+.ajax-search-result2 ul li {
+    padding: 0;
+    margin: 0;
+    min-height: 44px;
+}
+
+.ajax-search-result2 ul li .img-block {
+    max-width: 25%;
+    float: left;
+}
+
+.ajax-search-result2 ul li .info-block {
+    max-width: 75%;
+    float: left;
+}
